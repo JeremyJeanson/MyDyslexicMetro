@@ -1,0 +1,183 @@
+#container{
+  fill: white;
+}
+#background {
+  width: 100%;
+  height: 100%;
+  fill: blue;
+}
+#split1{
+  fill: black;
+  x:0;
+  y:33%-2;
+  height: 4;
+  width: 100%;
+}
+#split2{
+  fill: black;
+  x:0;
+  y:66%-2;
+  height: 4;
+  width: 100%;
+}
+#split3{
+  fill: black;
+  x:66%-2;
+  y:0;
+  height: 100%;
+  width: 4;
+}
+
+/* Date */
+#date-container{
+  x:0;
+  y:0;
+}
+#date1-container{
+  y:36;
+}
+#date1-container image{
+  height: 24;
+  width: 12;
+  x:$;
+}
+#date2-container{
+  y:30;
+}
+#date2-container image{
+  height: 60;
+  width: 30;
+  x:$;
+}
+#date3-container{
+  y:70;
+}
+#date3-container image{
+  height: 24;
+  width: 12;
+  x:$;
+}
+
+/* Weather */
+#weather-container{
+  x:66%;
+  y:0;
+}
+#weather-image{
+  x:30;
+  y:20;
+  height: 50;
+  width: 50;
+}
+#weather-temp{
+  x:40;
+  y:70;
+}
+#weather-temp image{
+  height: 30;
+  width: 15;
+  x:$;
+}
+/* Hours */
+#hours-container{
+  x:0;
+  y:33%;
+  height: 33%;
+  width: 66%-2;
+}
+#clock-container{
+  x:50%-90;
+  y:50%-40;
+}
+#clock-container image {
+  x:$;
+  height: 80;
+  width: 40;
+}
+#clock-container .clock-doublepoints {
+  width: 20;
+  href:"chars/58.png";
+}
+
+#ampm-container {
+  x:0;
+  y:0;
+}
+#ampm-container image {
+  x:$;
+  height: 30;
+  width: 10;
+}
+
+/* Battery */
+#battery-container{
+  x:66%;
+  y:33%;
+}
+#battery-symbol {
+  x:30;
+  y:20;
+  height: 50;
+  width: 50;
+}
+#battery-text{
+  x:1;
+  y:70;
+}
+#battery-text image {
+  height: 30;
+  width: 15;
+  x:$;
+}
+
+/* Stats */
+#stats-container{
+  x:0%;
+  y:66%;
+  height: 33%;
+  width: 66%;
+}
+.stat{
+  x:$+14;
+  height: 50;
+  width: 50;
+}
+#steps-symbol{
+  x:20;
+  y:10;
+}
+#calories-symbol{
+  y:10;
+}
+#activesminutes-symbol{
+  y:10;
+}
+#distance-symbol{
+  x:52;
+  y:54;
+}
+#elevation-symbol{
+  x:117;
+  y:54;
+}
+
+/* Hrm */
+#hrm-container{
+  x:66%;
+  y:66%;
+}
+#iconHRM{
+  x:30;
+  y:20;
+  height: 50;
+  width: 50;
+}
+#hrm-text-container{
+  x:40;
+  y:70;
+}
+#hrm-text-container image {
+  height: 30;
+  width: 15;
+  x:$;
+}

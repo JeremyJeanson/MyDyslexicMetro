@@ -1,0 +1,39 @@
+{
+  "name": "mydyslexicmetro",
+  "description": "a clock for Fitbit OS",
+  "license": "MIT",
+  "devDependencies": {
+    "@fitbit/sdk": "^6.0.2",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^7.0.4",
+    "simple-fitbit-activities": "^2.0.3",
+    "simple-fitbit-settings": "^3.1.0",
+    "simple-fitbit-weather": "^0.1.2"
+  },
+  "fitbit": {
+    "appUUID": "a9e11f57-176d-4b1a-b451-f93191ccb56d",
+    "appType": "clockface",
+    "appDisplayName": "Mydyslexicmetro",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile",
+      "access_aod",
+      "run_background",
+      "access_location",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

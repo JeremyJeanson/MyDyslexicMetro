@@ -1,0 +1,17 @@
+msgid "colorBackground"
+msgstr "Couleur de fond"
+
+msgid "colorForeground"
+msgstr "Couleur du texte"
+
+msgid "clockFormat"
+msgstr "Définir le format horaire"
+
+msgid "clockFormatUser"
+msgstr "Profil Fitbit"
+
+msgid "clockFormat12h"
+msgstr "12 Heures"
+
+msgid "clockFormat24h"
+msgstr "24 Heures"

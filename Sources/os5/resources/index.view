@@ -1,0 +1,98 @@
+<svg id="container">
+  <rect id="background" />
+  <rect id="split1" />
+  <rect id="split2" />
+  <rect id="split3" />
+  <!-- Dates -->
+  <svg id="date-container">
+    <svg id="date1-container">
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+    </svg>
+    <svg id="date2-container">
+      <image />
+      <image />
+    </svg>
+    <svg id="date3-container">
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+    </svg>
+  </svg>
+  <!-- Weather -->
+  <svg id="weather-container">
+    <image id="weather-image" />
+    <svg id="weather-temp">
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+      <image />
+    </svg>
+  </svg>
+  <!-- Hours -->
+  <svg id="hours-container">
+    <section id="ampm-container">
+      <image />
+      <image />
+    </section>
+    <section id="clock-container">
+      <image />
+      <image />
+      <image class="clock-doublepoints" />
+      <image />
+      <image />
+    </section>
+  </svg>
+  <!-- Battery -->
+  <svg id="battery-container">
+    <use id="battery-symbol" href="#battery" />
+    <svg id="battery-text">
+      <image />
+      <image />
+      <image />
+      <image />
+    </svg>
+  </svg>
+  <!-- Stats -->
+  <svg id="stats-container">
+    <use id="steps-symbol" href="#activity-symbol" class="steps stat">
+      <set href="image" attributeName="href" to="images/steps_36px.png" />
+    </use>
+    <use id="calories-symbol" href="#activity-symbol" class="calories stat">
+      <set href="image" attributeName="href" to="images/calories_36px.png" />
+    </use>
+    <use id="activesminutes-symbol" href="#activity-symbol" class="activesminutes stat">
+      <set href="image" attributeName="href" to="images/azm_36px.png" />
+    </use>
+    <use id="distance-symbol" href="#activity-symbol" class="distance stat">
+      <set href="image" attributeName="href" to="images/distance_36px.png" />
+    </use>
+    <use id="elevation-symbol" href="#activity-symbol" class="elevation stat">
+      <set href="image" attributeName="href" to="images/floors_36px.png" />
+    </use>
+  </svg>
+  <!-- Hrm -->
+  <svg id="hrm-container">
+    <use id="iconHRM" href="#heart-beat" />
+    <section id="hrm-text-container">
+      <image />
+      <image />
+      <image />
+    </section>
+  </svg>
+</svg>
